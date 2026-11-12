@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Passo a passo</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- MENU -->
+    <nav>
+        <a href="index.html">Início</a>
+        <a href="riscos.html">Riscos de Contaminação</a>
+        <a href="passos.html">Descarte correto</a>
+        <a href="quiz.html">Mitos e Verdades</a>
+    </nav>
+
+    <main>
+
+        <section>
+
+            <section>
+
+    <h2>Passo a Passo: Como Descartar Medicamentos Corretamente</h2>
+
+    <div class="destaque-inicio">
+
+        <img src="imagens/passos.png" alt="passo a passo">
+
+        <div class="texto-destaque">
+
+            <h3>Como descartar medicamentos corretamente?</h3>
+
+            <p>
+                O descarte de medicamentos exige alguns cuidados para evitar a contaminação do meio ambiente e proteger a saúde pública. 
+                Mas você sabe o que fazer com aqueles medicamentos vencidos ou que sobraram de tratamentos?
+                Nesta página, você encontrará um passo a passo simples e prático para identificar, separar e encaminhar esses produtos aos 
+                locais de coleta adequados. Pequenas atitudes fazem a diferença na construção de um futuro mais sustentável!
+            </p>
+
+        </div>
+
+    </div>
+
+    <!-- O restante do conteúdo da página continua aqui -->
+
+            <!-- EIXO E ALIADOS -->
+
+            <div class="blocos-guerra">
+
+                <button class="bloco-guerra" onclick="mostrarBlocoGuerra('eixo')">
+                    <h3>Descarte</h3>
+
+                    <p>
+                        Quais medicamentos podem ser descartados?
+                    </p>
+
+                    <span>Clique para saber mais</span>
+                </button>
+
+                <div class="seta-guerra">
+                    →
+                </div>
+
+                <button class="bloco-guerra" onclick="mostrarBlocoGuerra('aliados')">
+                    <h3>Locais de Descarte</h3>
+
+                    <p>
+                        Onde descartar meus medicamentos?
+                    </p>
+
+                    <span>Clique para saber mais</span>
+                </button>
+
+            </div>
+
+            <!-- CONTEÚDO DO EIXO -->
+
+            <div id="eixo" class="conteudo-guerra">
+
+                <h3>Medicamentos aceitos na coleta</h3>
+
+                <p>
+                    Os pontos de coleta recebem diferentes tipos de medicamentos domiciliares vencidos ou em desuso, como:
+                </p>
+                <ul>
+                    <li>Comprimidos e cápsulas</li>
+                    <li> Xaropes e soluções</li>
+                    <li>Pomadas e cremes</li>
+                    <li>Antibióticos</li>
+                    <li>Medicamentos em gotas</li>
+                    <li>Frascos e outras embalagens que tiveram contato com medicamentos</li>
+                </ul>
+                <p>É importante verificar as orientações do coletor, pois nem todos os resíduos de saúde são recebidos nesses pontos.</p>
+
+            </div>
+
+            <!-- CONTEÚDO DOS ALIADOS -->
+
+            <div id="aliados" class="conteudo-guerra">
+
+                <h3>Onde descartar meus medicamentos?</h3>
+
+                <p>
+                    Não sabe onde entregar seus medicamentos vencidos ou em desuso? 
+                </p>
+                <p>Existem pontos de coleta específicos, geralmente disponíveis em farmácias e drogarias.</p>
+                <p>Consulte o site abaixo, digite seu CEP/região, encontre o local mais próximo de você e faça o descarte corretamente.</p>
+                <p><a href="https://www.descarteconsciente.com.br/pontos-de-coleta" target="_blank">descarteconsciente.com</a></p>
+
+            </div>
+
+            <!-- LINHA DO TEMPO -->
+
+            <div class="linha-tempo">
+
+                <h3>Etapas do Descarte Correto</h3>
+
+                <div class="anos">
+
+                    <button onclick="mostrarAno('ano1939', this)">
+                        Etapa 1
+                    </button>
+
+                    <button onclick="mostrarAno('ano1941', this)">
+                        Etapa 2
+                    </button>
+
+                    <button onclick="mostrarAno('ano1942', this)">
+                        Etapa 3
+                    </button>
+
+                    <button onclick="mostrarAno('ano1944', this)">
+                        Etapa 4
+                    </button>
+
+                    <button onclick="mostrarAno('ano1945', this)">
+                        Etapa 5
+                    </button>
+
+                    <button onclick="mostrarAno('ano1946', this)">
+                        Etapa 6
+                    </button>
+
+                </div>
+
+                <!-- 1939 -->
+
+                <div id="ano1939" class="evento">
+
+                    <h4>Identifique os medicamentos que não serão mais utilizados</h4>
+
+                    <p>
+                        Verifique os medicamentos armazenados em casa e identifique aqueles que estão vencidos, sobraram de tratamentos 
+                        anteriores ou não serão mais utilizados.
+                    </p>
+                    <p>Observe a data de validade nas embalagens e confira os produtos que estão esquecidos em armários e gavetas.</p>
+
+                </div>
+
+                <!-- 1941 -->
+
+                <div id="ano1941" class="evento">
+
+                    <h4>Separe os medicamentos e suas embalagens</h4>
+
+                    <p>
+                        Separe os medicamentos vencidos ou em desuso para encaminhá-los aos pontos de coleta apropriados.
+                    </p>
+                    <p>Não misture esses produtos com o lixo doméstico. Mantenha-os em suas embalagens originais sempre que possível, 
+                    facilitando sua identificação e evitando contato acidental.</p>
+                </div>
+
+                <!-- 1942-1943 -->
+
+                <div id="ano1942" class="evento">
+
+                    <h4>Localize um ponto de coleta adequado</h4>
+
+                    <p>
+                        Procure uma farmácia ou drogaria que possua um coletor específico para medicamentos vencidos ou em desuso.
+                        Esses estabelecimentos fazem parte do sistema de logística reversa, que permite devolver os medicamentos para que 
+                        recebam uma destinação ambientalmente adequada.
+                    </p>
+                    <p>Você também pode consultar nossa página de Pontos de coleta para encontrar um local próximo.</p>
+
+                </div>
+
+                <!-- 1944 -->
+
+                <div id="ano1944" class="evento">
+
+                    <h4>Entregue os medicamentos no coletor</h4>
+
+                    <p>
+                        Ao chegar ao estabelecimento, procure o coletor identificado para o recebimento de medicamentos.
+                    </p>
+                    <p>
+                        Siga as orientações indicadas no próprio recipiente, pois alguns coletores possuem compartimentos 
+                        diferentes para medicamentos, embalagens e outros materiais.
+                    </p>
+                    <p>Não coloque os produtos em lixeiras comuns do estabelecimento.</p>
+                </div>
+
+                <!-- 1945 -->
+
+                <div id="ano1945" class="evento">
+
+                    <h4>Separe corretamente as embalagens</h4>
+
+                    <p>
+                        Algumas embalagens podem ter destinações diferentes:
+                    </p>
+                    <ul>
+                        <li>Caixas de papelão e bulas: quando estiverem limpas e sem contato com os medicamentos, geralmente podem ser 
+                        encaminhadas à reciclagem convencional.</li><br>
+                        <li>Blísteres (cartelas): devem ser destinados conforme a orientação do coletor, pois 
+                        podem conter resíduos do medicamento.</li><br>
+                        <li>Frascos e tubos: devem ser entregues conforme as instruções do ponto de coleta.</li><br>
+                    </ul>
+                    <p>Não retire medicamentos de suas embalagens nem descarte cartelas com resíduos no lixo reciclável comum.</p>
+
+                </div>
+
+                <!-- 1945 -->
+
+                <div id="ano1946" class="evento">
+
+                    <h4>Divulgue a informação</h4>
+
+                    <p>O descarte correto também depende da conscientização coletiva.</p>
+                    <p>Compartilhe essas informações com familiares e amigos, incentive hábitos responsáveis e ajude outras pessoas a 
+                    entenderem a importância de dar aos medicamentos uma destinação adequada.</p>
+
+                </div>
+
+            </div>
+
+        </section>
+
+    </main>
+
+    <footer>
+        <p>
+            Projeto Descarte de Medicamentos e Resíduos Farmacêuticos
+        </p>
+
+        <p>
+            &copy;Site desenvolvido por Isabella Astor
+        </p>
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
